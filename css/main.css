@@ -1,0 +1,297 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	width: 100%;
+	height: 78px;
+	/* background-color:transparent; */
+	
+	z-index: 0;
+	position: relative;
+}
+#grad1 {
+    
+    background: -webkit-linear-gradient(black, transparent); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(black, transparent); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(black, transparent); /* Firefox 3.6 - 15 */
+    background: linear-gradient(black, transparent); /* 标准的语法（必须放在最后） */
+}
+.juzhong{
+	width: 1358px;
+	height: 78px;
+	margin: 0 auto;
+	
+	/* position: relative; */
+}
+.head{
+	width: 1358px;
+	height: 78px;
+	/* position: relative; */
+	
+	
+	
+}
+.img{
+	margin-top:14px ;
+	height: 49px;
+	width: 132px;
+	float: left;
+}
+ul{
+	list-style: none;
+	
+}
+.headul{
+	float: left;
+	box-sizing: border-box;
+	width: 55%;
+	height: 78px;
+	margin-left: 30px;
+	padding-top: 16px;
+	position: relative;
+
+}
+.headul li{
+	float: left;
+	width: 20%;
+	list-style: none;
+	text-align: center;
+}
+.span{
+	font-size: 22px ;
+	display: block;
+	color: white;
+	
+	
+}
+.spandown{
+	display: block;
+	color: #aeaeae;
+	font-size: 11px;
+	margin-top: -1px;
+	font-family: '微软雅黑';
+	
+}
+.headri{
+	/* float:left */;
+	width: 449px;
+	display: inline-block;
+	/* position: relative; */
+	
+	
+	
+}
+.rispan{
+	left: 40px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	float: left;
+	margin: 17px 12px 0px 0px;
+	
+}
+.spanh{
+	
+	left: 120px;	
+	
+}
+.rispan .i1{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	font-size: 26px !important; 
+	left: 30px;
+	z-index: 1;
+}
+.rispan a{
+	color: #000000;
+}
+
+.rispan .i2{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	font-size: 28px !important; 
+	
+}
+
+
+.hedright{
+	position: relative;
+	width: 345px;
+	height: 78px;
+	display: inline-block;
+	
+}
+.rip{
+	line-height: 78px;
+	color: #FFFFFF;
+	position: absolute;
+	right: 0px;
+	/* background-color: aqua; */
+}
+.rip>a{
+	color:#FFF3D0 ;
+	text-decoration: none;
+	
+}
+.mid{
+	position: absolute;
+	width: 100%;
+	height: 560px;
+	/* background-color:#AEAEAE; */
+	/* 导航颜色 */
+	top: 0;
+	z-index: -2;
+	
+	
+}
+
+.midm{
+	width: 1920px;
+	height: 100%;
+	margin: 0 auto;
+	
+	position: relative;
+	
+	
+	
+}
+.img1{
+	width: 1920px;
+	height: 100%;
+	background-image: url(../img/1.jpg);
+	background-size: 1920px 560px;
+	position: absolute;
+	z-index: -1;
+}
+.hid{
+	width: 100%;
+	height: 400px;
+	display: none;
+	/* background-color: aqua; */
+	position: absolute;
+	top: 50px;
+
+	
+}
+body{
+	
+	 background-color: #EEEEEE;
+	 
+}
+.header .hid1{
+	width: 10000px;
+	height: 400px;	
+	left: -4608px;
+	z-index: 10;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: -78px;
+	
+	
+	display: none;
+} 
+.headul:hover .hid1{
+	display: block;
+	z-index: -1;
+}
+
+.headul:hover .hid{
+	
+	display: block;
+	
+}
+.hidul{
+	width:748px;
+	overflow: hidden;
+	height: 390px;
+		
+	position: relative;
+	
+	
+}
+.hidul li{
+	float: left;
+	
+	margin-top: 18px;
+	
+}
+.hidul li a{
+	display: block;
+	text-decoration: none;
+	height:29px;
+	color: #e1e1e1;
+	line-height:29px ;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 7px;
+	
+	}
+	.hidul li a:hover{
+		color: #ECBB46;
+	}
+.zhongjinan{
+	width: 55%;
+	height: 400px;
+	/* background-color: aqua; */
+	position: absolute;
+	
+}
+.xqwz{
+	
+	height: 60px;
+	width: 160px;
+	background-color: #000000;
+	position: absolute;
+	display: block;
+	left: 48%;
+	bottom: 124px;
+	font-size: 30px;
+	background-position: -216px -39px;
+	background-color: rgba(0,0,0,0.5);
+	color:#C2962E ;
+	z-index: 10;
+	text-align: center;
+	line-height: 60px;
+	border: 2px solid #C2962E;
+	overflow: auto;
+	
+	
+}
+.xqwz>a{
+	text-decoration: none;
+	color: #C2962E;
+}
+.banben{
+	position: absolute;
+	z-index: 2;	
+	right: 275px;
+	bottom: 28px;
+	font-size: 18px;
+	color: #AEAEAE;	
+}
+.banben em{
+	color: #f5d185;
+    margin-right: 10px;
+	font-style: normal;
+}
+.ben{
+	display: inline-block;
+	padding: 0 15px;
+	height: 28px;
+	border: 2px solid #f5d185;
+    text-align: center;
+    line-height: 28px;
+	background: rgba(0,0,0,.65);
+	font-size: 12px;
+    color: #f5d185;
+	cursor: pointer;
+}
+
+
+
+
+	

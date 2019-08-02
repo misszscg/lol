@@ -1,0 +1,234 @@
+.newhero{
+	float: left;
+    width: 820px;
+    height: 254px;
+    margin-top: 51px;
+	/* background-color: #87CEEB; */
+}
+.heroimg{
+	float: left;
+    position: relative;
+    width: 402px;
+    height: 254px;
+    /* background-color: #f7f6f6; */
+}
+.blackimg{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+	width: 100%;
+    height: 133px;
+	background-image: url(../img/black.png);
+}
+.xinyxa{
+	position: absolute;
+    display: block;
+    left: 9px;
+    top: 9px;
+    width: auto;
+    height: 20px;
+    padding: 0 6px;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    color: #cdbe91;
+    line-height: 19px;
+    /* background-color: #000; */
+}
+.beau{
+	width: 100%;
+    padding: 0 17px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 33px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #cdbe91;
+}
+.namehero{
+	width: 100%;
+    padding-left: 17px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    font-size: 14px;
+}
+.namehero>a{
+	color: #cfcfcf;
+}
+.hidnewhreo{
+	position: absolute;
+	top: 0px;
+	width: 402px;
+    height: 254px;
+    overflow: hidden;
+	display: none;
+    z-index: 11;
+	background-color: rgba(0,0,0,0.6);
+	
+}
+.border{
+	display: block;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    background-position: 0 0;
+    width: 396px;
+    height: 248px;
+}
+.p1{
+	color: #cdbe91;
+    font-size: 18px;
+    position: absolute;
+    left: 27px;
+    top: 20px;
+}
+.herobi{
+	width: 450px;
+	height: auto;
+	/* overflow: hidden; */
+	padding-left: 27px;
+	box-sizing: border-box;
+	margin-top: 58px;
+}
+.nandu{
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	width: 111px;
+	height: 4px;
+	text-align: center;
+}
+.nandu>i{
+	float: left;
+	width: 34px;
+	height: 4px;
+	margin-right: 3px;
+	background-color: #6c6c6c;
+}
+.herobi>li{
+	font-size: 14px;
+    color:#FFFFFF;
+    text-align: left;
+    width: 175px;
+    height: 30px;
+    line-height: 30px;  
+    float: left;
+    margin: 0 15px 9px 0;
+}
+.white1{
+	background-color: #FFFFFF !important;
+}
+.white2{
+	background-color: #FFFFFF !important;
+}
+.wuli{
+	display: inline-block;
+	vertical-align: middle;
+	width: 80px;
+	height: 4px;
+	background-color: #6c6c6c;
+	position: relative;
+}
+.wuli>i{
+	display: block;
+	position: absolute;
+	height: 4px;
+	top: 0;
+	left: 0;
+	background-color: #FFFFFF;
+}
+
+#fangyu{
+	background-color: #FFFFFF !important;
+}
+.heroimg:hover .hidnewhreo{
+	display: block;
+}
+.newpifu{
+	float: left;
+    position: relative;
+    width: 402px;
+    height: 254px;
+    /* background-color: #f7f6f6; */
+	margin-left: 16px;
+	cursor: pointer;
+}
+img{
+	border: 0;
+}
+.nav-tg{
+	width: 496px;
+    height: 255px;
+   /* float: left; */
+	top:436px;
+	left: 850px;
+   position: relative;
+    padding-top: 51px;
+	
+	/* background-color: #0DA0B4; */
+	/* 颜色 */
+	
+}
+.show{
+	visibility: visible!important;
+    animation: bottomin-1 .6s ease;
+    -webkit-animation: bottomin-1 .6s ease;
+}
+.yuding{
+	/* background-color: #f7f6f6; */
+    position: absolute;
+    float: left;
+    width: 240px;
+    height: 120px;
+    /* overflow: visible; */
+   /* margin-bottom: 15px; */
+   top: 0px;
+	background-color: #424242;
+}
+.manhua{
+	position: absolute;
+	float: left;
+	width: 240px;
+	height: 120px;
+	
+	/* overflow: visible; */
+/* 	margin-top: 0px; */
+	background-color: #424242;
+	bottom: 52px;
+}
+.clu{
+	/* float: right; */
+    width: 242px;
+    height: 180px;
+    position: absolute;
+	right: 0px;
+	top: 0px;
+    background-color: #f7f6f6;
+	
+}
+.zhoumian{
+	float: right;
+    width: 239px;
+    height: 58px;
+    /* overflow: visible; */
+    position: absolute;
+/*    margin-top: 17px; */
+	background-color: #0B0B0B;
+	right: 0;
+	bottom: 52px;
+	
+}
+.week-free{
+	display: block;
+   background-position: -193px -253px;
+    width: 239px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+	background-image: url(../img/index-spr.png);
+}

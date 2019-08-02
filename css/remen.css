@@ -1,0 +1,366 @@
+.act{
+	width: 820px;
+	height: 335px;
+	margin-top: 50px;
+	float: left;
+	/* background-color: #C2962E; */
+	position: relative;
+}
+
+
+.act-top{
+	width: 100%;
+	height: 35px;
+	position: relative;
+	overflow: visible;
+	/* background-color: #87CEEB; */
+}
+.act-title{
+	float: left;
+	display: block;
+	position: absolute;
+	width: auto;
+	height: 28px;
+	left: 6px;
+	top: 5px;
+	box-sizing: border-box;
+	color: #0b0b0b;
+	font-size: 24px;
+	font-weight: 400;
+}
+.act-title:after{
+	content: '\0020';
+    display: inline-block;
+    position: absolute;
+    left: -5px;
+	top: 2px;
+    width: 4px;
+    height: 28px;
+   background-color: #1da6ba;
+    margin-right: 10px;
+}
+.act-top-ul{
+	position: absolute;
+	height: 35px;
+	left: 128px;
+	box-sizing: border-box;
+	border-bottom: 1px #e0e2e2 solid;	
+}
+
+
+.gtli{
+	width: 68px;
+    /* position: relative; */
+    cursor: pointer;
+    float: left;
+   width: auto;
+   /* min-width: 40px; */
+    height: 37px;
+    /* overflow: visible; */
+   color: #676767;
+   font-size: 16px;
+   letter-spacing: 1px;
+   line-height: 35px;
+   text-align: center;
+	margin-right: 40px;
+	
+}
+
+.act-top-ul>li{
+	position: relative;
+}
+.act-top-li2:after:hover{
+	display: block;
+}
+.act-top-li2:hover~.actlistulSC{
+	display: block;
+	z-index: 2;
+}
+
+
+.act-top-li3:hover~.actlistulHD{
+	display: block;
+	z-index: 2;
+}
+.actlistulSC .actlistul p{
+	height: 20px;
+	margin-left: 15px ;
+	font-size: 14px;
+	line-height: 20px;
+	position: absolute;
+	left: 0px;
+}
+.actlistulSC .actlistul a{
+	position: absolute;
+	bottom: 3px;
+}
+.actlistulSC .actlistul i{
+	position: absolute;
+	bottom: 3px;
+	right: 15px;
+}
+
+.actlistulHD .actlistul p{
+	height: 20px;
+	margin-left: 15px ;
+	font-size: 14px;
+	line-height: 20px;
+	position: absolute;
+	left: 0px;
+}
+.actlistulHD .actlistul a{
+	position: absolute;
+	bottom: 3px;
+}
+.actlistulHD .actlistul i{
+	position: absolute;
+	bottom: 3px;
+	right: 15px;
+}
+
+a{
+	text-decoration: none;
+}
+.gengduo-a{
+	position: absolute;
+	top: 0;
+	right: 20px;
+	display: block;
+	height: 35px;
+	font-size: 12px;
+	color: #7EA1A6;
+	line-height: 35px;
+	z-index: 1;
+}
+.gengduo-i{
+	margin-left: 5px;
+}
+
+
+
+
+.actlistulSC{
+	widows: 820px;
+	height: 278px;
+	margin-top: 21px;
+	position: absolute;
+	top: 35px;
+	left: -128px;
+	display: none;
+	/* background-color: #AEAEAE; */
+}
+.actlistulHD{
+	widows: 820px;
+	height: 278px;
+	margin-top: 21px;
+	position: absolute;
+	top: 35px;
+	left: -128px;
+	display: none;
+	/* background-color: #AEAEAE; */
+}
+
+
+
+
+.act-list{
+	widows: 820px;
+	height: 278px;
+	margin-top: 21px;
+	position: relative;
+	/* display: none; */
+	
+}
+.actlistul{
+	width: 840px;
+	height: 278px;
+	position: relative;
+}
+.actlistul li{
+	list-style: none;
+    float: left;
+    width: 193px;
+    height: 278px;
+    margin: 0 15px 20px 0;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: transform .3s;
+    transition: transform .3s;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+   background-color: #fefefe;
+	cursor: pointer;
+	
+}
+.actlistul li p{
+	
+	margin-left: 15px ;
+	font-size: 14px;
+	
+	position: absolute;
+	bottom: 40px;
+	left: 0px;
+	
+	
+}
+.overtime{
+	position: absolute;
+	font-size: 12px;
+	color: #1da6ba;
+    left: 10px;
+    bottom: 15px;
+}
+
+.actlistul li>i{
+	display: inline-block;
+	font-size: 24px !important ; 
+	position: absolute;
+	color:#1da6ba;
+	right: 15px;
+	bottom: 10px;
+}
+
+/* 下载游戏块 */
+.xzyx{
+	width: 496px;
+	height: 335px;
+	float: right;
+	margin-top: 50px;
+	position: relative;
+	/* background-color: #0DA0B4; */
+	top: -381px;
+	right: 10px;
+	
+}
+.xzyxul{
+	width: 100%;
+	background-color: #676767;
+	
+}
+.download{
+	float: left;
+	width: 366px;
+	height: 168px;
+	overflow: hidden;
+	background-image: url(../img/pic-download.png);
+	transition: filter .5s;
+	-webkit-filter: brightness(1);
+    position: relative;
+	cursor: pointer;
+}
+.xinshou{
+	margin-left: 12px;
+	float: right;
+	width: 118px;
+	height: 76px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 76px;
+	overflow: hidden;
+	position: relative;
+	background-position: -193px -316px;
+	background-image: url(../img/index-spr.png);
+}
+.p2{
+	margin: 17px 0 0 12px ;
+	width: 118px;
+	height: 76px;
+	float: right;
+	
+	
+}
+.href-type1{
+	float: left;
+	background-position: -193px -316px;
+    width: 118px;
+    height: 76px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 76px;
+	background-image: url(../img/index-spr.png);
+	transition: filter .5s;
+}
+.p3{
+	    margin: 13px 6px 0 6px;
+		float: left;
+		box-sizing: border-box;
+		position: relative;
+}
+.href-type2{
+	position: relative;
+	float: left;
+    width: 112px;
+    height: 68px;
+    color: #424242;
+    text-align: center;
+    line-height: 68px;
+    background-color: #fefefe;
+	font-size: 12px;
+}
+.icon-kh{
+	
+	vertical-align: middle;
+	padding: 0 0 0 18px;
+	background-position: -318px -12px;
+    width: 25px;
+    height: 19px;
+	float: left;
+	color:#87CEEB;
+    text-align: center;
+    line-height: 68px;
+	box-sizing: border-box;
+	
+}
+.icon-dunpai_tubiao{
+	font-size: 24px;
+	color: #1DA6BA;
+	float: left;
+	position: absolute;
+	left: 3px;
+	
+}
+.icon-yxzl{
+	
+	vertical-align: middle;
+}
+.icon-lol{
+	
+	font-size: 24px;
+	color:  #1DA6BA;
+} 
+.icon-xiaguxianfeng-big{
+	font-size: 24px;
+	color:  #1DA6BA;
+}
+.xgzd{
+	vertical-align: middle;
+}
+.icon-weixinbangding-user{
+	font-size: 24px;
+	color:  #1DA6BA;
+}
+.icon-gonglve{
+	font-size: 24px;
+	color:  #1DA6BA;
+}
+.icon-ufo{
+	font-size: 24px;
+	color:  #1DA6BA;
+}
+.icon-shequ{
+	font-size: 24px;
+	color:  #1DA6BA;
+}
+
+.icon-new {
+	font-size: 40px;
+	position: absolute;
+	color:#ECBB46;
+	z-index: 1;
+	top: -17px;
+	left: -6px;
+}
